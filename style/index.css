@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 *{
 
   cursor: pointer;
-
+margin: 0;
     
 }
 
@@ -17,10 +17,13 @@ font-family: 'Open Sans', sans-serif;
     background: #FCEEF1;
     height: 100vh;
     width: 100%;
-    padding: 100px 90px 140px 240px 
+   
 }
 
- 
+ .images-feature-container{
+  width: 50%;
+  margin: auto;
+ }
 
 .lets-title-section{
 color: #272727;
@@ -39,6 +42,7 @@ font-weight: 600;
 color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
+
 }
 
 .my-btn{
@@ -49,6 +53,7 @@ font-weight: 700;
 border-radius: 8px;
 background: #E55473;
 border: none;
+margin-top: 20px;
 
 }
 
@@ -147,6 +152,9 @@ margin-top: 15px;
   min-height: 100vh;
   width: 100%;
 }
+.hotdeal-container{
+background-color:rgba(229, 84, 115, 0.05) ;
+}
 .hotdeal-para{
  
 }
@@ -159,6 +167,7 @@ margin-top: 15px;
   font-weight: 700;
   border-radius: 8px;
   background: #E55473;
+  margin-top: 10px;
 
 }
   /* Social media instagram section start from here */
@@ -300,7 +309,7 @@ gap: 25px;
       footer{
       text-align: center;
       width: 100%;
-       height: 70vh;
+       height: 50vh;
        color: white;
        background-color: black;
     
