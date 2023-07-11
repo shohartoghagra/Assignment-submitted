@@ -138,16 +138,35 @@ margin-top: 15px;
   margin-top: 20px;
   }
 
-
   /* sales  service container start from here */
 
+.hotdeal-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.hotdeal-para{
+ 
+}
 
+.btn-sign{
+  color: #FFF;
+  border: none;
+  font-size: 20px;
+  padding: 20px 43px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+
+}
   /* Social media instagram section start from here */
 
   .Social-media-container{
     justify-content: space-around;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background: #FFF;
 }
