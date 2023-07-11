@@ -17,11 +17,10 @@ font-family: 'Open Sans', sans-serif;
     background: #FCEEF1;
     height: 100vh;
     width: 100%;
+    padding: 100px 90px 140px 240px 
 }
-.lets-Section{
- padding: 100px 95px 145px 240px 
 
-}
+ 
 
 .lets-title-section{
 color: #272727;
@@ -141,56 +140,7 @@ margin-top: 15px;
 
 
   /* sales  service container start from here */
-/* 
-  .hot-deal-container{
-    display: flex;
-    height: 50vh;
-    width: fit-content;
-  display: flex;
- justify-content:space-evenly;
- justify-content: center;
- align-items: center;
- padding: 100px 215px 160px ;
- background-color: #FFFFFF;
 
-  }
-
-  .hot-sale-section{
-    
-  }
-.hot-deal-title{
-color: #272727;
-font-size: 40px;
-font-weight: 800;
-width: 600px;
-justify-content: center;
-align-items: center;
-}
-
-.hot-deal-Paragraph{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-
-} */
-/* .sign-btn{
-margin-top: 30px;
-margin-left: 28%;
-justify-content: center;
-} */
-
-/* .sale-images-Section{
-    border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
-     padding: 100px  100px 400px 220px;
-    align-items: center; 
-  } */
-  /* .hot-images{
-    width: 300px; 
-   
-    
-  } */
 
   /* Social media instagram section start from here */
 
@@ -198,7 +148,7 @@ justify-content: center;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    /* width: 100%; */
+    width: 100%;
     background: #FFF;
 }
 .instagram-section{
