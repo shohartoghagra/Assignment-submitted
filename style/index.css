@@ -5,11 +5,9 @@ font-family: 'Open Sans', sans-serif;
 
 *{
 
-  
   cursor: pointer;
 
-    box-sizing: border-box;
-    border: none;
+    
 }
 
 .header-container{
@@ -87,13 +85,13 @@ align-items: center;
   text-align: center;
   align-items: center;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     gap: 25px; 
 }
 .flower-item{
 border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15); 
-height: 473px;
+/* height: 473px; */
 
 }
 .image-size-A {
@@ -143,18 +141,23 @@ margin-top: 15px;
 
 
   /* sales  service container start from here */
-
+/* 
   .hot-deal-container{
-    height: 100vh;
-    width: 100%;
+    display: flex;
+    height: 50vh;
+    width: fit-content;
   display: flex;
  justify-content:space-evenly;
  justify-content: center;
  align-items: center;
- padding: 190px 215px 160px 390px ;
+ padding: 100px 215px 160px ;
+ background-color: #FFFFFF;
 
   }
 
+  .hot-sale-section{
+    
+  }
 .hot-deal-title{
 color: #272727;
 font-size: 40px;
@@ -170,24 +173,24 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 
-}
-.sign-btn{
+} */
+/* .sign-btn{
 margin-top: 30px;
 margin-left: 28%;
 justify-content: center;
-}
+} */
 
-.sale-images-Section{
+/* .sale-images-Section{
     border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-    padding: 100px  100px 400px 220px;
-    align-items: center;
-  }
-  .hot-images{
-    width: 300px;
-    height: 400px;
-    margin-top: 150px;
-  }
+     padding: 100px  100px 400px 220px;
+    align-items: center; 
+  } */
+  /* .hot-images{
+    width: 300px; 
+   
+    
+  } */
 
   /* Social media instagram section start from here */
 
@@ -195,7 +198,7 @@ justify-content: center;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     background: #FFF;
 }
 .instagram-section{
@@ -293,7 +296,7 @@ gap: 25px;
     background-size: cover;
     align-items: center;
     justify-content: center;
-   height: 70vh;
+   height: 80vh;
    width: 100%;
     }    
 
@@ -303,7 +306,7 @@ gap: 25px;
     }
 
     .sale-description{
-      margin-left: 200px;
+      margin-left: 100px;
     }
       .flower-deal-section{
         width: 50%;
@@ -314,7 +317,7 @@ gap: 25px;
       input{
         margin: auto;
         border: none;
-        width: 600px;
+        width: 300px;
         height: 60px;
         color: rgba(39, 39, 39, 0.60);
        text-align: center;
