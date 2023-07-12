@@ -10,15 +10,53 @@ font-family: 'Open Sans', sans-serif;
     
 }
 
-.header-container{
+.banner-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #FCEEF1;
     height: 100vh;
-    width: 100%;
-   
+    width: 100vw;
+
 }
+
+.text-container{
+
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.title-section{
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-left: 110px;
+}
+
+.Paragraph-section{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.shop-btn{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 110px;
+  padding: 20px 43px;
+  border-radius: 8px;
+background: #E55473;
+}
+
+
+.images-section{
+margin-top: 90px;
+
+}
+
+
+/* image feature section start from here */
 
  .images-feature-container{
   width: 50%;
