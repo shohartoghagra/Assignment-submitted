@@ -17,11 +17,12 @@ font-family: 'Open Sans', sans-serif;
     background: #FCEEF1;
     height: 100vh;
     width: 100%;
+    padding: 40px 10px 40px;
 }
 
 .text-container{
-
- 
+width: 40%;
+margin: auto 
 }
 .title-section{
   color: #272727;
@@ -35,8 +36,7 @@ font-family: 'Open Sans', sans-serif;
   color: rgba(39, 39, 39, 0.60);
   font-size: 18px;
   font-weight: 400;
-  width: 600px;
-  
+  /* width: 600px; */
 }
 
 .shop-btn{
@@ -49,10 +49,14 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .images-section{
-margin-top: 90px;
+
 
 }
 
+.image-size{
+
+margin-top: 50px;
+}
 
 /* image feature section start from here */
 
