@@ -55,7 +55,7 @@ font-family: 'Open Sans', sans-serif;
   height: 700px;
   padding-top:30px;
  margin-right: 5px;
- margin-bottom: 100px;
+  margin-block-end: auto;
 
 }
 
