@@ -17,26 +17,23 @@ font-family: 'Open Sans', sans-serif;
     background: #FCEEF1;
     height: 100vh;
     width: 100vw;
-    padding: 30px 10px 10px 140px;
+    padding: 50px 0px 0px 140px;
 }
 
 .text-container{
-width: 60%;
-margin: auto 
+/* width: 60%; */
+/* margin: auto  */
 }
 .title-section{
   color: #272727;
   font-size: 80px;
-  font-weight: 800;
-  width: 800px;
-  
+  font-weight: 700;  
 }
 
 .Paragraph-section{
   color: rgba(39, 39, 39, 0.60);
   font-size: 18px;
   font-weight: 400;
-  
 }
 
 .shop-btn{
@@ -54,9 +51,14 @@ margin: auto
 }
 
 .image-size{
-
+width: 400px;
+height: 590px;
+padding-top: 30px;
+margin-right: 5px;
 
 }
+
+
 
 /* image feature section start from here */
 
