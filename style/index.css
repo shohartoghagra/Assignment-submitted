@@ -17,11 +17,11 @@ font-family: 'Open Sans', sans-serif;
     background: #FCEEF1;
     height: 100vh;
     width: 100%;
-    padding: 40px 10px 40px;
+    padding: 40px 10px 10px 10px;
 }
 
 .text-container{
-width: 40%;
+width: 60%;
 margin: auto 
 }
 .title-section{
@@ -49,11 +49,12 @@ margin: auto
 }
 
 .images-section{
-
+/* margin-bottom: 300px; */
 
 }
 
 .image-size{
+width: 400px;
 
 }
 
