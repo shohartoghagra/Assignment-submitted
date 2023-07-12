@@ -46,14 +46,14 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .images-section{
-/* margin-bottom: 300px; */
+/* padding: 100px; */
 
 }
 
 .image-size{
-width: 400px;
-height: 590px;
-padding-top: 30px;
+  width: 600px;
+  height: 800px;
+padding-top:80px;
 margin-right: 5px;
 
 }
