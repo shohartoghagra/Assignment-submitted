@@ -3,12 +3,38 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-*{
 
-  cursor: pointer;
 
-    
+
+
+.nav-menu{
+padding: 50px;
+    background-color: rgba(255, 99, 71, 0.037);
+   border: none;
+   margin: 0;
+  }
+
+.nav-item{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
+.nav-list{
+ list-style: none;
+ text-decoration: none;
+}
+a{
+  font-size: 25px;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(242, 76, 10);
+  background-color: black;
+}
+
+
+
+
 
 .banner-container{
     display: flex;
@@ -101,7 +127,7 @@ margin-top: 20px;
 /* my feature section start from here */
 .feature-container{
   padding: 100px 240px;
-background-color: #b5e7a7b6
+  background-color: white;
 
 }
 
@@ -127,7 +153,7 @@ margin-bottom: 50px;
    margin: auto;
    width: 500px;
 color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
+font-size: 25px;
 font-weight: 400;
 align-items: center;
 
@@ -145,7 +171,7 @@ align-items: center;
 .flower-item{
 border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15); 
-/* height: 473px; */
+
 
 }
 .image-size-A {
@@ -153,8 +179,7 @@ margin-right: 5px;
 align-items: center;
 height: 430px;
 width: 300px;
-/* padding: 15px; */
-/* margin-top: 7rem; */
+
 }
 
 .image-size-B{
@@ -172,26 +197,27 @@ width: 300px;
       margin-bottom: 200px;
  }
 
- .flower-btn-A{
-  color: #272727;
+ .flower-button-A{
+  border: none;
 font-size: 25px;
 font-weight:700;
 text-decoration-line: underline;
-margin-top: px;
-}
-.flower-btn-B{
-    color: #272727;
-  font-size: 25px;
-  font-weight:700;
-  text-decoration-line: underline;
 
-  }
-  .flower-btn-C{
-    color: #272727;
+}
+.flower-button-B{
+   
   font-size: 25px;
   font-weight:700;
   text-decoration-line: underline;
-   margin-top: 25px
+margin-top: 10px;
+  border: none;
+  }
+  .flower-button-C{
+  font-size: 25px;
+  font-weight:700;
+  text-decoration-line: underline;
+   margin-top: 25px;
+   border: none;
   }
 
 
@@ -245,7 +271,6 @@ font-weight: 400;
   .Social-media-container{
     justify-content: space-around;
     align-items: center;
-   
     background: #FFF;
 }
 
@@ -254,9 +279,7 @@ text-align: center;
 font-size: 25px;
 font-weight: 400;
 
-
 }
-
 
 .instagram-title{
 color: #272727;
@@ -268,9 +291,9 @@ align-items: center;
 .instagram-description{
 width: 80%;
 margin: auto;
-
-
 }
+
+
 
 .social-flower-item{
     padding: 30px;
@@ -338,6 +361,7 @@ gap: 25px;
              }
 
 
+
 /* Latest deal section start here */
 
 .flower-banner{ 
@@ -346,50 +370,58 @@ gap: 25px;
     background-size: cover;
     align-items: center;
     justify-content: center;
-    background-position: 100% 100%;
- 
-  padding: 100px;
-
-
- 
+    /* background-position: 100% 100%; */
+    padding: 120px 285px 120px;
     }    
 
     .Latest-title{
        
-        text-align: center;
+     text-align: center;
     }
 
-    .sale-description{
-      margin-left: 100px;
+    .latest-description{
+   
+      color: rgba(39, 39, 39, 0.60);
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+      
+
     }
-      .flower-deal-section{
-        width: 50%;
-        margin: auto;
-        justify-content: center;
+
+    .Latest-text-section{
+        text-align: center;
         
-      }       
+      }   
+      
+  
       input{
       
-        width: 400px;
+        width: 500px;
         height: 60px;
         color: rgba(39, 39, 39, 0.60);
        text-align: center;
       font-size: 16px;
       font-weight: 400;
-
+   border: none;
+      }
+      .my-contact{
+        text-align: center;
+        justify-content: center;
       }
 
+      .my-subscriber-btn{
+        margin-right: 10px;
+      }
 
       /* footer section start from here */
 
       footer{
-      text-align: center;
-      width: 100%;
-       height: 70vh;
+        padding: 100px 60px;
        color: white;
        background-color: black;
-    
-
+      
+   
       }
 
 .footer-title{
@@ -398,14 +430,23 @@ gap: 25px;
 }
 
 
-.footer-descriptoin{
-  padding:50px 0px ;
+.footer-text-section{
+  padding: 20px;
+  text-align: center;
+  
+
+  
 }
-.footer-container{
-  padding: 150px;
-}
+
+
 
       .flower{
 color:  #E55473;
 
+     }
+      .hr{
+       background-color:  red;
+       color: red;
+       width: 50%;
+       margin: auto;
       }
