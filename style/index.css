@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 *{
 
   cursor: pointer;
-margin: 0;
+/* margin: 0; */
     
 }
 
@@ -272,12 +272,16 @@ gap: 25px;
     background-size: cover;
     align-items: center;
     justify-content: center;
-   /* height: 80vh;
-   width: 100%; */
+    background-position: 100% 100%;
+ 
+  padding: 100px;
+
+
+ 
     }    
 
     .Latest-title{
-        padding: 100px 150px 16px 5px;
+       
         text-align: center;
     }
 
@@ -291,9 +295,8 @@ gap: 25px;
         
       }       
       input{
-        margin: auto;
-        border: none;
-        width: 300px;
+      
+        width: 400px;
         height: 60px;
         color: rgba(39, 39, 39, 0.60);
        text-align: center;
@@ -304,10 +307,11 @@ gap: 25px;
 
 
       /* footer section start from here */
+
       footer{
       text-align: center;
       width: 100%;
-       height: 50vh;
+       height: 70vh;
        color: white;
        background-color: black;
     
@@ -318,8 +322,13 @@ gap: 25px;
   font-size: 48px;
   font-weight: 800;
 }
+
+
+.footer-descriptoin{
+  padding:50px 0px ;
+}
 .footer-container{
-  padding: 135px;
+  padding: 150px;
 }
 
       .flower{
